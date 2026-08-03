@@ -70,3 +70,21 @@ exports/
 test_data/
 datasets/
 demo_data/
+
+# Debug fixtures
+omni-backend/_debug_fixtures/
+
+# Audit outputs
+omni-backend/_audit_june/
+
+# Local logs
+*.log
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
