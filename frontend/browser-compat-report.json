@@ -1,0 +1,549 @@
+{
+  "BASE": "http://localhost:8080",
+  "REPORT": [
+    {
+      "section": "chrome-clean-profile:summary",
+      "at": "2026-08-01T10:29:02.388Z",
+      "data": {
+        "href": "http://localhost:8080/",
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "sw": [],
+        "caches": [],
+        "tests": {
+          "healthRelative": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"status\":\"ok\"}"
+          },
+          "reconcileRelative": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+          },
+          "healthLoopback": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"status\":\"ok\"}"
+          },
+          "healthLocalhost8000": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"status\":\"ok\"}"
+          },
+          "reconcileAbsoluteLoopback": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+          },
+          "reconcileAbsoluteLocalhost": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+          }
+        },
+        "apiRequests": [
+          {
+            "method": "GET",
+            "url": "http://localhost:8080/api/health",
+            "headers": {
+              "content-type": null,
+              "origin": null,
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": null
+          },
+          {
+            "method": "POST",
+            "url": "http://localhost:8080/api/reconcile",
+            "headers": {
+              "content-type": "multipart/form-data; boundary=----WebKitFormBoundary8V4NNne2dmjEBuxn",
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": 507
+          },
+          {
+            "method": "GET",
+            "url": "http://127.0.0.1:8000/api/health",
+            "headers": {
+              "content-type": null,
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": null
+          },
+          {
+            "method": "GET",
+            "url": "http://localhost:8000/api/health",
+            "headers": {
+              "content-type": null,
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": null
+          },
+          {
+            "method": "POST",
+            "url": "http://127.0.0.1:8000/api/reconcile",
+            "headers": {
+              "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryrrBvy27h8hg79xU4",
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": 507
+          },
+          {
+            "method": "POST",
+            "url": "http://localhost:8000/api/reconcile",
+            "headers": {
+              "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryVmCjMb11O82pk4z7",
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": 507
+          }
+        ],
+        "failures": [],
+        "responses": [
+          {
+            "status": 200,
+            "url": "http://localhost:8080/api/health",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://localhost:8080/api/reconcile",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://127.0.0.1:8000/api/health",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://localhost:8000/api/health",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://127.0.0.1:8000/api/reconcile",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://localhost:8000/api/reconcile",
+            "contentType": "application/json"
+          }
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "navError": null
+      }
+    },
+    {
+      "section": "edge-clean-profile:summary",
+      "at": "2026-08-01T10:29:06.550Z",
+      "data": {
+        "href": "http://localhost:8080/",
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.",
+        "sw": [],
+        "caches": [],
+        "tests": {
+          "healthRelative": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"status\":\"ok\"}"
+          },
+          "reconcileRelative": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+          },
+          "healthLoopback": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"status\":\"ok\"}"
+          },
+          "healthLocalhost8000": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"status\":\"ok\"}"
+          },
+          "reconcileAbsoluteLoopback": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+          },
+          "reconcileAbsoluteLocalhost": {
+            "ok": true,
+            "status": 200,
+            "contentType": "application/json",
+            "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+          }
+        },
+        "apiRequests": [
+          {
+            "method": "GET",
+            "url": "http://localhost:8080/api/health",
+            "headers": {
+              "content-type": null,
+              "origin": null,
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": null
+          },
+          {
+            "method": "POST",
+            "url": "http://localhost:8080/api/reconcile",
+            "headers": {
+              "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryAThBKqm87XZAusKC",
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": 507
+          },
+          {
+            "method": "GET",
+            "url": "http://127.0.0.1:8000/api/health",
+            "headers": {
+              "content-type": null,
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": null
+          },
+          {
+            "method": "GET",
+            "url": "http://localhost:8000/api/health",
+            "headers": {
+              "content-type": null,
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": null
+          },
+          {
+            "method": "POST",
+            "url": "http://127.0.0.1:8000/api/reconcile",
+            "headers": {
+              "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryY8VzQJBPObHhEJMA",
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": 507
+          },
+          {
+            "method": "POST",
+            "url": "http://localhost:8000/api/reconcile",
+            "headers": {
+              "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryWBeCpdxYT2zM4RHD",
+              "origin": "http://localhost:8080",
+              "referer": "http://localhost:8080/",
+              "content-length": null,
+              "sec-fetch-site": null,
+              "sec-fetch-mode": null,
+              "sec-fetch-dest": null,
+              "sec-fetch-storage-access": null,
+              "access-control-request-private-network": null,
+              "access-control-request-headers": null,
+              "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+              "accept": "*/*",
+              "accept-language": null
+            },
+            "postDataLength": 507
+          }
+        ],
+        "failures": [],
+        "responses": [
+          {
+            "status": 200,
+            "url": "http://localhost:8080/api/health",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://localhost:8080/api/reconcile",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://127.0.0.1:8000/api/health",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://localhost:8000/api/health",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://127.0.0.1:8000/api/reconcile",
+            "contentType": "application/json"
+          },
+          {
+            "status": 200,
+            "url": "http://localhost:8000/api/reconcile",
+            "contentType": "application/json"
+          }
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "navError": null
+      }
+    },
+    {
+      "section": "chrome-real-profile",
+      "at": "2026-08-01T10:29:07.163Z",
+      "data": {
+        "note": "Could not attach to real Chrome Default profile (usually because Chrome is already running).",
+        "error": "browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,ThirdPartyStoragePartitioning,LensOverlay,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --profile-directory=Default --disable-extensions --user-data-dir=C:\\Users\\User\\AppData\\Local\\Google\\Chrome\\User Data --remote-debugging-pipe about:blank\n<launched> pid=10916\nCall log:\n  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,ThirdPartyStoragePartitioning,LensOverlay,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --profile-directory=Default --disable-extensions --user-data-dir=C:\\Users\\User\\AppData\\Local\\Google\\Chrome\\User Data --remote-debugging-pipe about:blank\n  - <launched> pid=10916\n",
+        "implication": "Automation uses a clean profile; your real Chrome/Edge may have extensions, flags, or Local Network Access decisions that clean automation does not."
+      }
+    },
+    {
+      "section": "firefox-system:launch",
+      "at": "2026-08-01T10:29:10.189Z",
+      "data": "launch failed: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Mozilla Firefox\\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\User\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-e1cIAx -juggler-pipe -silent\n<launched> pid=9160\n[pid=9160] <process did exit: exitCode=0, signal=null>\n[pid=9160] starting temporary directories cleanup\nCall log:\n  - <launching> C:\\Program Files\\Mozilla Firefox\\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\User\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-e1cIAx -juggler-pipe -silent\n  - <launched> pid=9160\n  - [pid=9160] <process did exit: exitCode=0, signal=null>\n  - [pid=9160] starting temporary directories cleanup\n"
+    },
+    {
+      "section": "DIFF",
+      "at": "2026-08-01T10:29:10.189Z",
+      "data": {
+        "chromePost": {
+          "method": "POST",
+          "url": "http://localhost:8080/api/reconcile",
+          "headers": {
+            "content-type": "multipart/form-data; boundary=----WebKitFormBoundary8V4NNne2dmjEBuxn",
+            "origin": "http://localhost:8080",
+            "referer": "http://localhost:8080/",
+            "content-length": null,
+            "sec-fetch-site": null,
+            "sec-fetch-mode": null,
+            "sec-fetch-dest": null,
+            "sec-fetch-storage-access": null,
+            "access-control-request-private-network": null,
+            "access-control-request-headers": null,
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+            "accept": "*/*",
+            "accept-language": null
+          },
+          "postDataLength": 507
+        },
+        "edgePost": {
+          "method": "POST",
+          "url": "http://localhost:8080/api/reconcile",
+          "headers": {
+            "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryAThBKqm87XZAusKC",
+            "origin": "http://localhost:8080",
+            "referer": "http://localhost:8080/",
+            "content-length": null,
+            "sec-fetch-site": null,
+            "sec-fetch-mode": null,
+            "sec-fetch-dest": null,
+            "sec-fetch-storage-access": null,
+            "access-control-request-private-network": null,
+            "access-control-request-headers": null,
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+            "accept": "*/*",
+            "accept-language": null
+          },
+          "postDataLength": 507
+        },
+        "chromeRelativeOk": {
+          "ok": true,
+          "status": 200,
+          "contentType": "application/json",
+          "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+        },
+        "edgeRelativeOk": {
+          "ok": true,
+          "status": 200,
+          "contentType": "application/json",
+          "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+        },
+        "chromeFailures": [],
+        "edgeFailures": [],
+        "firefoxFailures": []
+      }
+    }
+  ],
+  "diff": {
+    "chromePost": {
+      "method": "POST",
+      "url": "http://localhost:8080/api/reconcile",
+      "headers": {
+        "content-type": "multipart/form-data; boundary=----WebKitFormBoundary8V4NNne2dmjEBuxn",
+        "origin": "http://localhost:8080",
+        "referer": "http://localhost:8080/",
+        "content-length": null,
+        "sec-fetch-site": null,
+        "sec-fetch-mode": null,
+        "sec-fetch-dest": null,
+        "sec-fetch-storage-access": null,
+        "access-control-request-private-network": null,
+        "access-control-request-headers": null,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "accept": "*/*",
+        "accept-language": null
+      },
+      "postDataLength": 507
+    },
+    "edgePost": {
+      "method": "POST",
+      "url": "http://localhost:8080/api/reconcile",
+      "headers": {
+        "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryAThBKqm87XZAusKC",
+        "origin": "http://localhost:8080",
+        "referer": "http://localhost:8080/",
+        "content-length": null,
+        "sec-fetch-site": null,
+        "sec-fetch-mode": null,
+        "sec-fetch-dest": null,
+        "sec-fetch-storage-access": null,
+        "access-control-request-private-network": null,
+        "access-control-request-headers": null,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+        "accept": "*/*",
+        "accept-language": null
+      },
+      "postDataLength": 507
+    },
+    "chromeRelativeOk": {
+      "ok": true,
+      "status": 200,
+      "contentType": "application/json",
+      "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+    },
+    "edgeRelativeOk": {
+      "ok": true,
+      "status": 200,
+      "contentType": "application/json",
+      "body": "{\"message\":\"Success\",\"data\":[{\"Date\":\"2026-01-01\",\"Order ID\":\"1001\",\"Platform\":\"Swiggy\",\"Outlet\":\"Shop 1\",\"Expected Amou"
+    },
+    "chromeFailures": [],
+    "edgeFailures": [],
+    "firefoxFailures": []
+  }
+}

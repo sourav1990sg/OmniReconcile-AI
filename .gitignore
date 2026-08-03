@@ -1,0 +1,72 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# ===========================
+# Node / React
+# ===========================
+node_modules/
+dist/
+build/
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+
+# Cursor
+.cursor/
+
+# ===========================
+# Python tooling
+# ===========================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Generated outputs
+# ===========================
+_acceptance/
+_audit/
+reports/
+exports/
+
+# ===========================
+# Temporary files
+# ===========================
+*.tmp
+*.bak
+
+# ===========================
+# Large datasets
+# ===========================
+test_data/
+datasets/
+demo_data/

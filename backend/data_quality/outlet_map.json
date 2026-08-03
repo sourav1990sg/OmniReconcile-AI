@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "description": "Canonical outlet map — RID and exact labels only (no ambiguous short aliases)",
+  "mappings": {
+    "487438": "Doiwala (Downtown Mall)",
+    "577479": "Doiwala (Patuli)",
+    "1198691": "Doiwala [DumDum Park]",
+    "doiwala (downtown mall)": "Doiwala (Downtown Mall)",
+    "doiwala (patuli)": "Doiwala (Patuli)",
+    "doiwala [dumdum park]": "Doiwala [DumDum Park]",
+    "doiwala (dumdum park)": "Doiwala [DumDum Park]",
+    "doiwala (garia station)": "Doiwala (Garia Station)"
+  }
+}

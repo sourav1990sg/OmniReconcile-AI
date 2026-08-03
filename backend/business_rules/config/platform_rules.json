@@ -1,0 +1,16 @@
+{
+  "platforms": {
+    "swiggy": {
+      "delay_days": 7,
+      "zero_difference_tolerance": "0.00"
+    },
+    "zomato": {
+      "delay_days": 7,
+      "zero_difference_tolerance": "0.00"
+    }
+  },
+  "default": {
+    "delay_days": 7,
+    "zero_difference_tolerance": "0.00"
+  }
+}
